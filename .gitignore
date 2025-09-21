@@ -1,0 +1,50 @@
+# 依赖
+node_modules/
+*/node_modules/
+
+# 环境变量
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# 构建输出
+dist/
+build/
+*/dist/
+*/build/
+
+# 日志
+*.log
+logs/
+
+# 数据库
+*.sqlite
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# SSL证书
+nginx/ssl/
+*.pem
+*.key
+*.crt
+
+# 临时文件
+tmp/
+temp/
+
+# 测试覆盖率
+coverage/
+
+# 混淆代码
+roblox-client/obfuscated/
+
+# 备份文件
+database/backup/
+*.backup
